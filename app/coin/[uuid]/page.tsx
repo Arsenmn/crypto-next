@@ -46,7 +46,7 @@ const CoinPage = () => {
   ];
 
   return (
-    <div className="w-full h-screen bg-[#181818] text-white pt-[100px] px-7">
+    <div className="w-ful h-screen bg-[#181818] text-white pt-[100px] px-7">
       <header className="flex flex-row justify-between items-center">
         <div>
           <div className="flex flex-row gap-2 items-center">
@@ -77,7 +77,7 @@ const CoinPage = () => {
           className="font-bold flex flex-row items-center gap-1 group"
         >
           <AlignHorizontalDistributeCenter className="group-hover:text-teal-200" />
-          <p className="text-xl">More</p>
+          <p className="text-xl hidden sm:flex">More</p>
         </Link>
       </header>
 

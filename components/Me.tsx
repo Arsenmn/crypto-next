@@ -25,8 +25,11 @@ const Me = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.25 }}
         >
-          <p className="text-xl text-[#d38659] font-extrabold">
+          <p className="text-xl text-[#d38659] font-extrabold hidden md:visible">
             By Arsen Yergali
+          </p>
+          <p className="text-xl text-[#d38659] font-extrabold p-2 bg-amber-200 rounded-full cursor-pointer hover:border-2 hover:border-amber-50">
+            Me
           </p>
         </motion.div>
       )}
@@ -34,7 +37,7 @@ const Me = () => {
       <AnimatePresence>
         {socialsOpened && (
           <motion.div
-            className="flex flex-row gap-3 items-center"
+            className="flex flex-col sm:flex-row mt-15 sm:mt-3 md:mt-0 gap-3 items-center"
             initial={{ opacity: 0, y: 10, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.9 }}
@@ -50,7 +53,7 @@ const Me = () => {
             </motion.div>
 
             <motion.div
-              className="bg-amber-200 flex flex-row gap-2 p-2 px-4 rounded-full cursor-pointer"
+              className="bg-amber-200 flex flex-col md:flex-row gap-2 p-2 px-4 rounded-full cursor-pointer"
               initial="hidden"
               animate="visible"
               variants={{

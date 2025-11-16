@@ -29,7 +29,7 @@ const ListSearch = ({ search, setSearch, coins }: IListSearchProps) => {
           className="w-[400px] pl-10 py-2 bg-[#1f1f1f] border border-[#95785c] rounded-lg text-white placeholder-[#95785c] focus:ring-2 focus:ring-[#d29c37] outline-none transition-all"
         />
       </div>
-      <div className="flex flex-row gap-4">
+      <div className="hidden gap-4 md:flex md:flex-row">
         {quickSearch.map((coin) => (
           <a
             key={coin.uuid}
