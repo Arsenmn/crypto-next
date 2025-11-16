@@ -1,7 +1,6 @@
 "use client";
 
 import { Search } from "lucide-react";
-import Link from "next/link";
 import { Coin } from "@/app/list/page";
 import Image from "next/image";
 

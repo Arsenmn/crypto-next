@@ -1,11 +1,11 @@
-import { configureStore } from '@reduxjs/toolkit'
-import coinsReducer from './coinsSlice'
+import { configureStore } from "@reduxjs/toolkit";
+import coinsReducer from "./coinsSlice";
 
 export const store = configureStore({
   reducer: {
-    coins: coinsReducer
+    coins: coinsReducer,
   },
-})
+});
 
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;

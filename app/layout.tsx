@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Crypto Next",
-  description: "Crypto App made by Arsen Yergali",
+  description: "Crypto Tracking App made by Arsen Yergali",
 };
 
 export default function RootLayout({

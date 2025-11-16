@@ -45,8 +45,6 @@ const CoinPage = () => {
     { label: "Change (24h)", value: Number(coin.change) },
   ];
 
-  console.log(coins);
-
   return (
     <div className="w-full h-screen bg-[#181818] text-white pt-[100px] px-7">
       <header className="flex flex-row justify-between items-center">

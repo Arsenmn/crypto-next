@@ -8,8 +8,8 @@ interface ICoinsState {
 
 const initialState: ICoinsState = {
   coins: [],
-  search: ""
-}
+  search: "",
+};
 
 const coinsSlice = createSlice({
   name: "coins",
@@ -20,9 +20,9 @@ const coinsSlice = createSlice({
     },
     setSearch: (state, action: PayloadAction<string>) => {
       state.search = action.payload;
-    }
-  }
-})
+    },
+  },
+});
 
 export const { setCoins, setSearch } = coinsSlice.actions;
 export default coinsSlice.reducer;

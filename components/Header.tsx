@@ -9,14 +9,12 @@ import Me from "./Me";
 export const Header = () => {
   const pathname = usePathname();
   let activeIndex = 0;
-  if(pathname === '/') activeIndex = 0;
+  if (pathname === "/") activeIndex = 0;
   else if (pathname.startsWith("/list")) activeIndex = 1;
   else if (pathname.startsWith("/coin")) activeIndex = 1;
   else if (pathname.startsWith("/about")) activeIndex = 2;
   const width = 72;
   const offset = activeIndex * width;
-
-  console.log(pathname)
 
   return (
     <div className="w-full h-[100px] flex flex-row justify-between items-center text-white px-5 absolute bg-transparent z-100">
