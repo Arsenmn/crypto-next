@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Crypto Next",
+  title: "CryptiX",
   description: "Crypto Tracking App made by Arsen Yergali",
 };
 
