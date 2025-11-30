@@ -12,6 +12,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import GlowCard from "./helpers/glowCard";
 
 interface IPriceChartProps {
   uuid: string;
@@ -46,7 +47,7 @@ const PriceChart = ({ uuid }: IPriceChartProps) => {
   }, [uuid]);
 
   return (
-    <div className="w-full h-72 bg-[#121212] rounded-2xl shadow-lg p-4 border border-[#1e1e1e]">
+    <div className="w-[98%] h-[250px] mt-8 border border-[#97672c] hover:border-[#efb76d] rounded-lg transition-colors duration-150 p-3">
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data}>
           <defs>

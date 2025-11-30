@@ -54,7 +54,7 @@ const List = () => {
   }
 
   return (
-    <div className="bg-[#181818] w-full min-h-screen pt-[100px] text-white">
+    <div className="bg-[#2d1919] bg-[url('/line.svg')] w-full min-h-screen pt-[100px] text-white">
       <ListSearch search={search} setSearch={handleSearchChange} coins={coins}/>
       <CoinsList filteredCoins={filteredCoins}/>
     </div>

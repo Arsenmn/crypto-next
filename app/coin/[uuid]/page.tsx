@@ -46,7 +46,7 @@ const CoinPage = () => {
   ];
 
   return (
-    <div className="w-ful h-screen bg-[#181818] text-white pt-[100px] px-7">
+    <div className="w-ful h-screen bg-[#2d1919] text-white pt-[100px] px-7">
       <header className="flex flex-row justify-between items-center">
         <div>
           <div className="flex flex-row gap-2 items-center">
@@ -88,7 +88,7 @@ const CoinPage = () => {
           <h3 className="text-5xl font-bold">Main Data</h3>
           <div
             className={`w-[65%] h-1 mx-5`}
-            style={{ backgroundColor: coin.color }}
+            style={{ backgroundColor: coin.color  }}
           />
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-2 pl-5 pt-2">

@@ -2,7 +2,7 @@
 
 import { Boxes } from "lucide-react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Me from "./Me";
 
@@ -20,7 +20,7 @@ export const Header = () => {
     <div className="w-full h-[100px] flex flex-row justify-between items-center text-white px-5 absolute bg-transparent z-100">
       <div className="">
         <Link href="/">
-          <Boxes color="#d38659" size={50} />
+          <Boxes color="#d38659" size={50}/>
         </Link>
       </div>
 

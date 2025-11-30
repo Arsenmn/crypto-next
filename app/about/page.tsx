@@ -36,7 +36,7 @@ export default function About() {
   }, []);
 
   return (
-    <div className="relative bg-[#181818] w-full min-h-screen text-white overflow-hidden flex items-center justify-center px-10">
+    <div className="relative bg-[#2d1919] w-full min-h-screen text-white overflow-hidden flex items-center justify-center px-10">
       <div
         ref={glowRef}
         className="
